@@ -12,7 +12,7 @@ npm install
 
 **step3 run project**
 
-npm run start
+npm run start or npm start
 
 **Create user**
 PUT api to create user - http://localhost:4000/user/sita
@@ -20,6 +20,7 @@ PUT api to create user - http://localhost:4000/user/sita
 **User Get APIs** 
 GET api to get user info - http://localhost:4000/user/sita
 
+**Subscription APIs**
 POST api to create subscription- http://localhost:4000/subscription
 ````
 {
