@@ -4,7 +4,8 @@ import morgan from "morgan";
 import mongoose from "mongoose";
 import config from "./config.js";
 import routes from "./routes/routes.js";
-
+import { process } from "./wishup-api/errorHandler/index.js";
+process();
 const app = express();
 app.use(express.json()); // to parse incomming req
 app.use(morgan("tiny")); // log req and res time
